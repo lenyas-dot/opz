@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/transProj2.dir/main.cpp.o CMakeFiles/transProj2.dir/Functions.cpp.o CMakeFiles/transProj2.dir/charLetters.cpp.o -o transProj2 

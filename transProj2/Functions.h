@@ -1,0 +1,2 @@
+
+char* TranslateFunc(const char*);
