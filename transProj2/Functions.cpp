@@ -13,7 +13,7 @@ char* TranslateFunc(const char* inputStr)
         {
             j = 0;
             flag = false;
-            while (j < 65)
+            while (j < 66)
             {
                 if (inputStr[i] == rusLetters[j][0] && inputStr[i + 1] == rusLetters[j][1])
                 {

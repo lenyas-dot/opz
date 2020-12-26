@@ -33,6 +33,14 @@ TEST(TranslateFunc, test4)
     EXPECT_STREQ(actual, expected);
     delete[] expected;
 }
+TEST(TranslateFunc, test5)
+{
+
+    const char* expected = TranslateFunc("ёЁёЁЁ");
+    const char* actual = "yoYOyoYOYO";
+    EXPECT_STREQ(actual, expected);
+    delete[] expected;
+}
 
 int main(int argc, char **argv)
 {
